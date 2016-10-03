@@ -1,0 +1,333 @@
+/*style page for Aloha - reset page in different file */
+/*Font-face file links below*/
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('fonts/raleway-light-webfont.eot');
+    src: url('fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-light-webfont.woff') format('woff'),
+         url('fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('fonts/raleway-medium-webfont.eot');
+    src: url('fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-medium-webfont.woff') format('woff'),
+         url('fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaylight_italic';
+    src: url('fonts/raleway-lightitalic-webfont.eot');
+    src: url('fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-lightitalic-webfont.woff') format('woff'),
+         url('fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ralewaymedium_italic';
+    src: url('fonts/raleway-mediumitalic-webfont.eot');
+    src: url('fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-mediumitalic-webfont.woff') format('woff'),
+         url('fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+         url('fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('fonts/playfairdisplay-bold-webfont.eot');
+    src: url('fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('fonts/playfairdisplay-bolditalic-webfont.eot');
+    src: url('fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('fonts/playfairdisplay-italic-webfont.eot');
+    src: url('fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-italic-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('fonts/playfairdisplay-regular-webfont.eot');
+    src: url('fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*END of font-face file links*/
+
+/*Most or all of font and text styling*/
+body {
+    font-family:'ralewaylight',sans-serif;
+    text-align:center;
+    font-size:14px;
+    color:#2d2d2d;
+    line-height:2;
+}
+p {
+    font-size:1.5rem;
+    margin-right:3%;
+    margin-left:3%;
+}
+h1 {
+    font-family:'playfair_displayregular', sans-serif;
+    font-size:2.3rem;
+}
+h2 {
+    font-size:3rem;
+    padding-top:7%;
+    padding-bottom:3%;
+    display:inline-block;
+    line-height:1.5;
+}
+.italic {
+    font-family:'playfair_displayitalic', sans-serif;
+    padding-right: 1%;
+}
+.bold {
+    font-family:'playfair_displaybold', sans-serif;
+}
+h3 {
+    font-family:'playfair_displayregular', sans-serif;
+    font-size:1.3rem;
+    color:#e2574c;
+    padding-top:2%;
+    padding-bottom:2%;
+    line-height:1.5;
+}
+h4 {
+    text-transform:uppercase;
+    font-family:'ralewaymedium', sans-serif;
+    font-size: 1.1rem;
+}
+h5{
+    text-transform:uppercase;
+    font-family:'ralewaymedium', sans-serif;
+    color:#969696;
+    font-size:.7rem;
+    line-height: 1.5;
+}
+.price {
+    font-size: 1rem;
+}
+h6{
+    font-family:'playfair_displayregular', sans-serif;
+    padding-bottom:2%;
+    font-size:14px;
+}
+.sign-up {
+    text-shadow: 1px 1px black;
+}
+
+/*Header styling*/
+.logo {
+    float: left;
+    height:45px;
+    width:auto;
+    padding:2% 0% 2% 2%;
+}
+.cart-img {
+    float:right;
+    height:45px;
+    width:auto;
+    padding:2% 2% 2% 0%;
+}
+.clearfix:after {
+    content:'';
+    clear:both;
+    display:table;
+
+}
+/*Banner section styling*/
+.banner {
+    background:linear-gradient( to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%), 
+                url(images/banner-girl.png)no-repeat center 0px,
+                url(images/flower-bkgd.jpg)repeat-x center top;
+    height:375px;
+    background-size:cover, auto 355px, cover;
+    background-position-y: 0px, 48px, 0px;
+    position:relative;
+}
+.banner-text{
+    color:white;     
+    position:absolute;
+    top:50%;
+    width:100%;
+    transform:translate(0,-50%)
+}
+/*end of banner styling*/
+
+/*about-styles section styling --not much to be done here -- 
+*/
+.about-styles{
+    padding-bottom: 10%;
+}
+/*Most loved products section does not need styling for the mobile device (besides font above)*/
+
+/*email sign-up form styling*/
+.email-sign-up {
+    background:linear-gradient(to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%),
+                url(images/wave-bkgd.jpg)no-repeat center;
+    background-position-y: 0, -738px;
+    background-size: 270% 270%;
+    position:relative;
+    height:450px;
+    color:white;
+    margin-bottom:1%;
+}
+button{
+    color:white;
+    background-color: #e2574c;
+    border-radius:30px;
+    width:140px;
+    height:54px;
+    border:none;
+    position:relative;
+    right:147px;
+    top:-1px;
+    font-size:1.3rem;
+} 
+input {
+    width:35%;
+    border-radius:30px;
+    border:none;
+    padding-right:160px;
+    padding-left:25px;
+    margin-left:105px;
+    font-size:1.3rem;
+    line-height:1.5;
+    color:lightgrey;
+    height:60px;
+    text-transform:capitalize;
+}
+form{
+    padding-top:4%;
+}
+
+/*footer styling below*/
+
+
+footer {
+    background:#242424;
+    color:#f6fbff;
+    padding-top:7%;
+    padding-bottom:7%;
+}
+.address {
+    color:darkgrey;
+}
+li { 
+    display: inline;
+    padding-right: 1%;
+}
+a, a [href="mailto:info@alohaapparel.com"] {
+    color:#f6fbff;
+}
+a:hover, a [href="mailto:info@alohaapparel.com"]:hover {
+    color:palevioletred;
+}
+
+/**********************************************
+ I don't really understand the container class use. 
+ Is it to center the content on specific screen sizes?
+ Couldn't you just put width 100%?  Do I need to specify 600px?
+***********************************************/
+.container {
+    width:599px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* End of mobile screen optimization
+******************************************************************
+******************************************************************
+******************************************************************
+
+Below tablet and full screen optimization. I haven't finished optimizing the media queries
+because something funky was going on when I linked them. 
+
+
+/* @media all and (min-width: 600px) {
+
+    .contact-info {
+    float:left;
+}
+    .social {
+    float:right;
+}
+    .container {
+    width:1240px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}    
+/*Font styling */
+/*
+.sign-up-info {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size:3.6rem;
+}
+    
+/**Most loved products need to be aligned in two rows*/
+    /*.row-one {
+    display: inline;
+}
+Email sign up styling
+.email-sign-up {
+    background-position-y: 0, -837px;
+    background-size: 245% 245%;
+    height:600px;
+}
+button{
+    width:175px;
+    height:64px;
+    border-radius:35px;
+    right:183px;
+    top:59px;
+    font-size:1.8rem;
+} 
+input {
+    border-radius:35px;
+    position:relative;
+    padding-right:160px;
+    padding-left:35px;
+    margin-left:105px;
+    font-size:2rem;
+    line-height:1.5;
+    height:71px;
+    top:60px;
+}
+
+/*Footer styling
+
+}
+*/
