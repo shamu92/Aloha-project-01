@@ -12,3 +12,4 @@
 
 ###### I used the images that were given and downloaded fonts from font awesome.
 
+###Created by Sasha Altshteyn
