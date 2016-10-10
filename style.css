@@ -1,17 +1,17 @@
 /*style page for Aloha - reset page in different file */
 /*Font-face file links below*/
 @font-face {
-    font-family: 'ralewaylight';
+    font-family:'raleway';
     src: url('fonts/raleway-light-webfont.eot');
     src: url('fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/raleway-light-webfont.woff') format('woff'),
          url('fonts/raleway-light-webfont.ttf') format('truetype'),
          url('fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
-    font-weight: normal;
+    font-weight: 200;
     font-style: normal;
 }
 @font-face {
-    font-family: 'ralewaymedium';
+    font-family: 'raleway';
     src: url('fonts/raleway-medium-webfont.eot');
     src: url('fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/raleway-medium-webfont.woff') format('woff'),
@@ -21,7 +21,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'ralewaylight_italic';
+    font-family: 'raleway';
     src: url('fonts/raleway-lightitalic-webfont.eot');
     src: url('fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/raleway-lightitalic-webfont.woff') format('woff'),
@@ -31,7 +31,7 @@
     font-style: italic;
 }
 @font-face {
-    font-family: 'ralewaymedium_italic';
+    font-family:'raleway';
     src: url('fonts/raleway-mediumitalic-webfont.eot');
     src: url('fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/raleway-mediumitalic-webfont.woff') format('woff'),
@@ -41,7 +41,7 @@
     font-style: italic;
 }
 @font-face {
-    font-family: 'playfair_displaybold';
+    font-family: 'playfair';
     src: url('fonts/playfairdisplay-bold-webfont.eot');
     src: url('fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-bold-webfont.woff') format('woff'),
@@ -51,7 +51,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'playfair_displaybold_italic';
+    font-family: 'playfair';
     src: url('fonts/playfairdisplay-bolditalic-webfont.eot');
     src: url('fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
@@ -61,7 +61,7 @@
     font-style: italic;
 }
 @font-face {
-    font-family: 'playfair_displayitalic';
+    font-family: 'playfair';
     src: url('fonts/playfairdisplay-italic-webfont.eot');
     src: url('fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-italic-webfont.woff') format('woff'),
@@ -72,7 +72,7 @@
 
 }
 @font-face {
-    font-family: 'playfair_displayregular';
+    font-family: 'playfair';
     src: url('fonts/playfairdisplay-regular-webfont.eot');
     src: url('fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-regular-webfont.woff') format('woff'),
@@ -85,51 +85,56 @@
 
 /*Most or all of font and text styling*/
 body {
-    font-family:'ralewaylight',sans-serif;
+    font-family:'raleway', sans-serif;
     text-align:center;
     font-size:14px;
     color:#2d2d2d;
     line-height:2;
 }
 p {
-    font-size:1.5rem;
+    font-size:1rem;
     margin-right:3%;
     margin-left:3%;
+    font-family:'raleway', sans-serif;
+    font-weight:lighter;
 }
 h1 {
-    font-family:'playfair_displayregular', sans-serif;
+    font-family:'playfair', sans-serif;
     font-size:2.3rem;
 }
 h2 {
-    font-size:3rem;
+    font-size:2.1rem;
     padding-top:7%;
     padding-bottom:3%;
     display:inline-block;
     line-height:1.5;
 }
 .italic {
-    font-family:'playfair_displayitalic', sans-serif;
+    font-family:'playfair', sans-serif;
     padding-right: 1%;
+    font-style:italic;
 }
 .bold {
-    font-family:'playfair_displaybold', sans-serif;
+    font-family:'playfair', sans-serif;
+    font-weight:bold;
 }
 h3 {
-    font-family:'playfair_displayregular', sans-serif;
+    font-family:'playfair', sans-serif;
     font-size:1.3rem;
     color:#e2574c;
     padding-top:2%;
     padding-bottom:2%;
     line-height:1.5;
+    font-weight:lighter;
 }
 h4 {
     text-transform:uppercase;
-    font-family:'ralewaymedium', sans-serif;
+    font-family:'raleway', sans-serif;
     font-size: 1.1rem;
 }
 h5{
     text-transform:uppercase;
-    font-family:'ralewaymedium', sans-serif;
+    font-family:'raleway', sans-serif;
     color:#969696;
     font-size:.7rem;
     line-height: 1.5;
@@ -138,32 +143,43 @@ h5{
     font-size: 1rem;
 }
 h6{
-    font-family:'playfair_displayregular', sans-serif;
+    font-family:'playfair', sans-serif;
     padding-bottom:2%;
     font-size:14px;
 }
-.sign-up {
-    text-shadow: 1px 1px black;
-}
 
 /*Header styling*/
-.logo {
-    float: left;
-    height:45px;
-    width:auto;
-    padding:2% 0% 2% 2%;
-}
-.cart-img {
-    float:right;
-    height:45px;
-    width:auto;
-    padding:2% 2% 2% 0%;
-}
-.clearfix:after {
-    content:'';
-    clear:both;
-    display:table;
 
+header {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding:0% 5%;
+}
+.logo img, .cart-img img {
+    height:45px;
+    flex:1 0 50%;
+   
+}
+.logo img{
+     align-self: flex-start;
+     padding-top:5px;
+}
+.cart-img img {
+    align-self:flex-end;
+     padding-top:5px;
+}
+.nav-bar{
+    display:flex;
+    flex:1 0 100%;
+    justify-content:space-around;
+    border-top:1px solid #d7d7d7;
+    padding:1% 0;
+}
+.nav-bar a{
+    text-transform:uppercase;
+    text-decoration:none;
+    color:rgb(226, 87, 76);
 }
 /*Banner section styling*/
 .banner {
@@ -184,74 +200,172 @@ h6{
 }
 /*end of banner styling*/
 
-/*about-styles section styling --not much to be done here -- 
-*/
-.about-styles{
-    padding-bottom: 10%;
+/*about-styles section styling --not much to be done here -- */
+.about-styles {
+    padding-bottom:7%;
 }
-/*Most loved products section does not need styling for the mobile device (besides font above)*/
 
+/*categories styling section ***************/
+.categories {
+    display:flex;
+    flex-wrap:wrap;
+}
+.categories a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;
+    font-size:1.4rem;
+}
+.mens {
+    background:linear-gradient( to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%),
+    url(images/mens-category.jpg)no-repeat center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    flex:1 1 100%;
+    width:400px;
+    height:208px;
+    border-bottom:3px solid white;
+       
+}
+.trends {
+    background:linear-gradient( to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%),
+    url(images/trends-category.jpg)no-repeat center center;
+    background-size:cover;
+    flex:1 1 49%;
+    width:197px;
+    height:200px;
+    border-right:3px solid white;
+    border-top:3px solid white;
+    border-bottom:3px solid white;
+}
+.glasses {
+    background:linear-gradient( to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%),
+    url(images/glasses-category.jpg)no-repeat center center;
+    background-size:cover;
+    flex:1 1 49%;
+    width:197px;
+    height:200px;
+    border-left:3px solid white;
+    border-top:3px solid white;
+    border-bottom:3px solid white;    
+}
+.sale {
+    background:linear-gradient( to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%),
+    url(images/sale-category.jpg)no-repeat center center;
+    background-size:cover;
+    flex:1 1 49%;
+    width:197px;
+    height:200px;
+    border-right:3px solid white;
+    border-top:3px solid white;
+    border-bottom:3px solid white;
+    
+}
+.bags {
+    background:linear-gradient( to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%),
+    url(images/bags-category.jpg)no-repeat center center;
+    background-size:cover;
+    flex:1 1 49%;
+    width:197px;
+    height:200px;
+    border-left:3px solid white;
+    border-top:3px solid white;
+    border-bottom:3px solid white;
+}   
+.womens {
+    background:linear-gradient( to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%),
+    url(images/womens-category.jpg)no-repeat center center;
+    background-size:cover;
+    flex:1 1 100%;
+    width:400px;
+    height:208px;
+    border-top:3px solid white;
+    
+}
+/*Most loved products section styling***************/
+.products{
+    height:600px;
+    padding-bottom:7%;
+}
+.carousel-cell {
+    width: 100%;
+}
+.flickity-prev-next-button:disabled {
+    display: none;
+}
 /*email sign-up form styling*/
 .email-sign-up {
     background:linear-gradient(to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%),
                 url(images/wave-bkgd.jpg)no-repeat center;
-    background-position-y: 0, -738px;
-    background-size: 270% 270%;
+    background-position-y: 0, -539px;
+    background-size: 185% 254%;
     position:relative;
-    height:450px;
+    height:350px;
     color:white;
     margin-bottom:1%;
 }
-button{
-    color:white;
-    background-color: #e2574c;
-    border-radius:30px;
-    width:140px;
-    height:54px;
-    border:none;
-    position:relative;
-    right:147px;
-    top:-1px;
-    font-size:1.3rem;
-} 
-input {
-    width:35%;
-    border-radius:30px;
-    border:none;
-    padding-right:160px;
-    padding-left:25px;
-    margin-left:105px;
-    font-size:1.3rem;
-    line-height:1.5;
-    color:lightgrey;
-    height:60px;
-    text-transform:capitalize;
-}
 form{
-    padding-top:4%;
+    display: block;
+    position: absolute;
+    width: 75%;
+    margin: 20% 0 0 7%;
+    top:46%;
 }
-
+input[type="email"] {
+    width: 100%;
+    line-height: 1.2rem;
+    padding: 0.9rem 1.5rem;
+}
+input[type="submit"] {
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: -2.75rem;
+    top: 0.25rem;
+    background: rgb(226, 87, 76);
+    padding: 0.7rem 1.5rem;
+}
+input[type="email"], input[type="submit"] {
+    font-size: 1rem;
+    border-width: 0px;
+    border-radius: 2rem;
+}
+.sign-up {
+    position: absolute;
+    bottom: 35%;
+}
+.email-sign-up h2 {
+     text-shadow: 1px 1px grey;
+}
 /*footer styling below*/
-
 
 footer {
     background:#242424;
     color:#f6fbff;
     padding-top:7%;
-    padding-bottom:7%;
+    padding-bottom:5%;
 }
 .address {
     color:darkgrey;
 }
-li { 
-    display: inline;
-    padding-right: 1%;
-}
-a, a [href="mailto:info@alohaapparel.com"] {
+footer a, .fa {
     color:#f6fbff;
 }
-a:hover, a [href="mailto:info@alohaapparel.com"]:hover {
+a:hover, a [href="mailto:info@alohaapparel.com"]:hover, .fa:hover {
     color:palevioletred;
+}
+.categories a:hover {
+    color:palegoldenrod
+}
+
+li { 
+    display:inline;
+}
+.social span{
+    display:none;
 }
 
 /**********************************************
@@ -260,10 +374,9 @@ a:hover, a [href="mailto:info@alohaapparel.com"]:hover {
  Couldn't you just put width 100%?  Do I need to specify 600px?
 ***********************************************/
 .container {
-    width:599px;
+    width:600px;
     width:100%;
-    margin-left:auto;
-    margin-right:auto;
+    margin:0 auto;
 }
 /* End of mobile screen optimization
 ******************************************************************
@@ -271,63 +384,169 @@ a:hover, a [href="mailto:info@alohaapparel.com"]:hover {
 ******************************************************************
 
 Below tablet and full screen optimization. I haven't finished optimizing the media queries
-because something funky was going on when I linked them. 
+because something funky was going on when I linked them. */
 
 
-/* @media all and (min-width: 600px) {
+@media all and (min-width: 600px) {
 
-    .contact-info {
-    float:left;
-}
-    .social {
-    float:right;
-}
-    .container {
-    width:1240px;
+.container {
     width:100%;
+    max-width:1200px;
     margin-left:auto;
     margin-right:auto;
 }    
-/*Font styling */
-/*
-.sign-up-info {
-    font-size: 1.8rem;
+/*font size for paragraphs and headers*/
+p {
+    font-size: 1.1rem;
 }
+h1 {
+    font-size: 3.3rem;
+}
+
 h2 {
-    font-size:3.6rem;
+    font-size: 2.6rem;
 }
-    
-/**Most loved products need to be aligned in two rows*/
-    /*.row-one {
-    display: inline;
+h3 {
+    font-size:1.5rem;
 }
-Email sign up styling
-.email-sign-up {
-    background-position-y: 0, -837px;
-    background-size: 245% 245%;
-    height:600px;
+h4 {
+    font-size:1.4rem;
 }
-button{
-    width:175px;
-    height:64px;
-    border-radius:35px;
-    right:183px;
-    top:59px;
-    font-size:1.8rem;
-} 
-input {
-    border-radius:35px;
-    position:relative;
-    padding-right:160px;
-    padding-left:35px;
-    margin-left:105px;
-    font-size:2rem;
+h5 {
+    font-size:.9rem;
+}
+h6 { 
+    font-size:1rem;
     line-height:1.5;
-    height:71px;
-    top:60px;
+}
+li {
+    font-size:1.2rem;
+    }
+.contact-info {
+    text-align: left;
+    font-size:.5rem;
+}
+/***** Header styling ******/
+header {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    padding:0% 5%;
+}
+.logo img{
+    display:flex;
+    flex-basis: 25%;
+    order:1;
+}
+.cart-img img {
+    display:flex;
+    flex-basis: 25%;
+    order:3
+}
+.nav-bar{
+    display:flex;
+    flex-basis:33%;
+    order:2;
+    /*justify-content:space-around;*/
+    border-top:none;
+    /*padding:1% 0;*/
+}
+/*about styling*/
+.about-styles {
+    width:70%;
+    margin:0 auto;
+}
+/*categories styling section*/
+.mens {
+    flex:1 1 50%;
+    border-right:3px solid white;
+    border-bottom:3px solid white;
+    height:200px;
+}
+.trends {
+    flex:1 1 24%;
+    border-left:3px solid white;
+    border-bottom:3px solid white;
+    border-top:none;
+}
+.glasses {
+    flex:1 1 24%;
+    border-left:3px solid white;
+    border-bottom:3px solid white;
+    border-top:none;
+}
+.sale {
+    flex:1 1 24%;
+    border-bottom:none;
+}
+.bags {
+    flex:1 1 24%;
+    border-right:3px solid white;
+    border-bottom:none;
+    height:200px;
+}
+.womens {
+    flex:1 1 49%;
+    border-left:3px solid white;
+    height:200px;
 }
 
-/*Footer styling
+/*products styling section */
+.carousel-cell {
+  width: 50%;
+}
+
+/*Email sign up styling*/
+.sign-up {
+    position: absolute;
+    bottom: 40%;
+    
+}
+.email-sign-up {
+    background-position-y: 0,-562px;
+    background-size: 130% 250%;
+    height: 375px;
+}
+.email-sign-up p {
+    width:75%;
+    margin:0 auto;
+
 
 }
-*/
+form {
+    position: absolute;
+    width: 51%;
+    margin:6rem auto;
+    right: 29%;
+
+}
+/*Footer styling for the tablet*/
+footer {
+    display:flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-right:5%;
+    padding-left:2%;
+}
+.number { 
+    padding-top:4%;
+    padding-bottom:4%;
+}
+.social span {
+    display:inline;
+}
+.social a {
+    text-decoration: none;
+    font-weight:lighter;
+}
+.social li {
+    display:flex;
+    flex-flow:column;
+    font-size:1rem;
+    
+
+}
+}
+
+@media all and (min-width: 1200px) {
+}
