@@ -21,4 +21,6 @@ email submit form to make sure that the user inputs a valid email address.
 
 #### This website was tested across most major browsers.
 
+##### I also tried to add the simpleCart plug in as a stretch goal. It doesn't work right now, but I believe it's very close. 
+
 ### Created by Sasha Altshteyn
