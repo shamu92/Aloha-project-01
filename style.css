@@ -183,7 +183,7 @@ header {
 .nav-bar li{
     margin:0 .7rem;
 }
-/*Banner section styling*/
+/*Banner section styling */
 .banner {
     background:linear-gradient( to bottom, rgba(0,0,0,0.275) 0%, rgba(0,0,0,0.275) 100%), 
                 url(images/banner-girl.png)no-repeat center 0px,

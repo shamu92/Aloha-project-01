@@ -35,7 +35,7 @@ $( document).ready(function(){
         
 	});
 
-    // This is code for the add item to cart feature. It doesn't work at the moment.
+    // This is code for the add item to cart feature. It doesn't work at the moment. need to fix actual cart
 	simpleCart({
 			checkout: { 
 				type: "PayPal" , 
