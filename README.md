@@ -1,15 +1,24 @@
-# Aloha project part 1
+# Aloha project part 2
 
 ## The goal was to build a website similar to an image that was given.
 
 ### Link to my website : <https://shamu92.github.io/Aloha-project-01/>
 
-#### This project was done using HTML and CSS.
+#### This project was done using HTML, CSS, and Java Script.
 
 ###### I made a webpage for Aloha Apparel using the things that we learned the first week of class.
 
-###### The web page is currently optimized for a mobile screen. I was having trouble adding the media query in order to optimize it for larger screens.
+### This is part two of project 1.
 
-###### I used the images that were given and downloaded fonts from font awesome.
+##### The websiste is fully optimized for three different screen sizes.
 
-###Created by Sasha Altshteyn
+##### I added Jquery plug-ins to enable smooth scrolling and the gallery of products with a slider. An alert was added to the 
+email submit form to make sure that the user inputs a valid email address.
+
+##### I downloaded and added the images that were provided for this part of the project. 
+
+###### I also took into acount the comments about part 1 of this project.
+
+#### This website was tested across most major browsers.
+
+### Created by Sasha Altshteyn
