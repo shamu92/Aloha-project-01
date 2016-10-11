@@ -34,9 +34,9 @@ $( document).ready(function(){
 		});
         
 	});
-
+});
     // This is code for the add item to cart feature. It doesn't work at the moment. need to fix actual cart
-	simpleCart({
+	/*simpleCart({
 			checkout: { 
 				type: "PayPal" , 
 				email: "you@yours.com", 
@@ -45,6 +45,6 @@ $( document).ready(function(){
                 attr: "quantity" , label: "Qty" },
 
 		});	
-    // simple Cart
+    // simple Cart */
     
-});
+
