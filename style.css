@@ -93,8 +93,7 @@ body {
 }
 p {
     font-size:1rem;
-    margin-right:3%;
-    margin-left:3%;
+    margin: 0 3%;
     font-family:'raleway', sans-serif;
     font-weight:lighter;
 }
@@ -161,18 +160,18 @@ header {
     flex:1 0 50%;
    
 }
-.logo img{
+.logo {
      align-self: flex-start;
      padding-top:5px;
 }
-.cart-img img {
+.cart-img {
     align-self:flex-end;
-     padding-top:5px;
+    padding-top:5px;
+    cursor: pointer;
 }
 .nav-bar{
-    display:flex;
-    flex:1 0 100%;
-    justify-content:space-around;
+    align-self: center;
+    flex: 1 0 100%;
     border-top:1px solid #d7d7d7;
     padding:1% 0;
 }
@@ -180,6 +179,9 @@ header {
     text-transform:uppercase;
     text-decoration:none;
     color:rgb(226, 87, 76);
+}
+.nav-bar li{
+    margin:0 .7rem;
 }
 /*Banner section styling*/
 .banner {
@@ -294,7 +296,7 @@ header {
     width: 100%;
 }
 .flickity-prev-next-button:disabled {
-    display: none;
+    display: none;  /* not sure why this isn't working, the arrows are still showing up*/
 }
 /*email sign-up form styling*/
 .email-sign-up {
@@ -328,6 +330,9 @@ input[type="submit"] {
     background: rgb(226, 87, 76);
     padding: 0.7rem 1.5rem;
 }
+#submit:hover {
+    background: #b72424
+}
 input[type="email"], input[type="submit"] {
     font-size: 1rem;
     border-width: 0px;
@@ -339,6 +344,10 @@ input[type="email"], input[type="submit"] {
 }
 .email-sign-up h2 {
      text-shadow: 1px 1px grey;
+}
+textarea:focus, input:focus{
+    outline: 2px solid grey;
+    background:whitesmoke;
 }
 /*footer styling below*/
 
@@ -374,7 +383,6 @@ li {
  Couldn't you just put width 100%?  Do I need to specify 600px?
 ***********************************************/
 .container {
-    width:600px;
     width:100%;
     margin:0 auto;
 }
@@ -391,9 +399,7 @@ because something funky was going on when I linked them. */
 
 .container {
     width:100%;
-    max-width:1200px;
-    margin-left:auto;
-    margin-right:auto;
+    margin:0 auto;
 }    
 /*font size for paragraphs and headers*/
 p {
@@ -426,30 +432,28 @@ li {
     text-align: left;
     font-size:.5rem;
 }
+nav li {
+    font-size:.9rem;
+}
 /***** Header styling ******/
 header {
-    display:flex;
-    justify-content:space-between;
     flex-wrap:nowrap;
-    padding:0% 5%;
+    padding:1% 0;
 }
-.logo img{
-    display:flex;
-    flex-basis: 25%;
+.logo{
     order:1;
+    flex-basis: 20%
 }
-.cart-img img {
-    display:flex;
-    flex-basis: 25%;
-    order:3
+.cart-img {
+    order:3;
+    flex-basis: 20%;
 }
 .nav-bar{
     display:flex;
-    flex-basis:33%;
+    flex-basis:60%;
     order:2;
-    /*justify-content:space-around;*/
+    justify-content: center;
     border-top:none;
-    /*padding:1% 0;*/
 }
 /*about styling*/
 .about-styles {
@@ -461,6 +465,7 @@ header {
     flex:1 1 50%;
     border-right:3px solid white;
     border-bottom:3px solid white;
+    width:394px;
     height:200px;
 }
 .trends {
@@ -488,6 +493,7 @@ header {
 .womens {
     flex:1 1 49%;
     border-left:3px solid white;
+    width:394px;
     height:200px;
 }
 
@@ -508,7 +514,7 @@ header {
     height: 375px;
 }
 .email-sign-up p {
-    width:75%;
+    width:70%;
     margin:0 auto;
 
 
@@ -549,4 +555,24 @@ footer {
 }
 
 @media all and (min-width: 1200px) {
+
+.carousel-cell {
+    width: 25%;
+}
+
+form {
+    width:30%;
+    right: 40%;
+}
+.sign-up {
+    bottom:33%;
+}
+.email-sign-up {
+    background-size: 100% 252%;
+}
+.about-styles, .email-sign-up p {
+    width:50%;
+    margin:0 auto;
+}
+
 }

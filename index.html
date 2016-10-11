@@ -15,17 +15,21 @@
 <body class="container">
     <header>
         <div class= "logo">
-            <img class="header" src="images/aloha-logo.svg" alt="aloha-logo">
+            <img class="header logo" src="images/aloha-logo.svg" alt="aloha-logo">
         </div>
-        <div class="cart-img">
+        <div class="cart-img simpleCart_Quantity">
         <img class="header cart-img" src="images/cart-icon.svg" alt="cart-logo">
+        <span class="simpleCart_Quantity"></span>
+        <a href="cart.html"></a>
         </div>
-        <ul class="nav-bar">
-            <li><a href="#about">about</a></li>
-            <li><a href="#shop">shop</a></li>
-            <li><a href="#featured">featured</a></li>
-            <li><a href="#updates">updates</a></li>
-        </ul>
+        <nav class="nav-bar">
+          <ul>
+              <li><a href="#about">about</a></li>
+              <li><a href="#shop">shop</a></li>
+              <li><a href="#featured">featured</a></li>
+              <li><a href="#updates">updates</a></li>
+          </ul>
+        </nav>
     </header>
 <!--------------- nav bar --------------->
 
@@ -59,53 +63,60 @@
     <section class="products" id="featured">   
         <h2 class ="italic">Most-Loved</h2><h2 class="bold">Products</h2>
         <div class="carousel" data-flickity>
-            <div class="carousel-cell">
+            <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/stretch-knit-dress.jpg" alt="Image of stretch knit dress">
                 <h5>dresses</h5>
                 <h3>Stretch Knit Dress</h3>
                 <h5 class="price">$169.00</h5>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/cotton-blue-shirt.jpg" alt="Image of cotton blue shirt">
                 <h5>shirts</h5>
                 <h3>Cotton Blue Shirt</h3>
                 <h5 class="price">$89.00</h5>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/checked-stretch-dress.jpg" alt="Image of checked stretch dress">
                 <h5>dresses</h5>
                 <h3>Checked Stretch Dress</h3>
                 <h5 class="price">$129.00</h5>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/blue-hipster-backpack.jpg" alt="Image of blue hipster backpack">
                 <h5>bags</h5>
                 <h3>Blue Hipster Backpack</h3>
                 <h5 class="price">$69.00</h5>
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/demin-overall-shorts.jpg" alt="Image of denim overall shorts">
                 <h5>denim</h5>
                 <h3>Denim Overall Shorts</h3>
                 <h5 class="price">$89.00</h5>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/pink-dotted-dress.jpg" alt="Image of pink dotted dress">
                 <h5>dresses</h5>
                 <h3>Pink Dotted Dress</h3>
                 <h5 class="price">$99.00</h5>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/blue-silk-dress.jpg" alt="Image of blue silk dress">
                 <h5>dresses</h5>
                 <h3>Blue Silk Dress</h3>
                 <h5 class="price">$119.00</h5>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
             </div>
-            <div class="carousel-cell">
+            <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/cotton-yellow-tshirt.jpg" alt="Image of cotton yellow tshirt">
                 <h5>shirts</h5>
                 <h3>Cotton Yellow Tshirt</h3>
                 <h5 class="price">$39.00</h5>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
             </div>
         </div>    
     </section>
@@ -121,9 +132,9 @@
             blog. Unsubscribe at any time.
          </p>
        </div>
-         <form action="#">
+         <form class="form-sign-up" action="#">
             <input type="email" name="your-email" placeholder="Your Email" id="your-email">
-            <input type="submit" name="subscribe" value="Subscribe">
+            <input type="submit" name="subscribe" value="Subscribe" id="submit">
          </form>
 <!--background image through css with linear gradient-->
     </section>
@@ -153,6 +164,7 @@
     </footer>
  <script src="js/jquery-3.1.1.js"></script>
  <script src="js/main.js"></script>
- -<script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+ <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+ <script src="simpleCart.js"></script>
 </body>
 </html>
