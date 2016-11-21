@@ -3,7 +3,7 @@
 
 ## The goal was to build a website similar to an image that was given.
 
-### Link to my website : <https://shamu92.github.io/Aloha-project-01/>
+### Link to my website : <https://shamu92.github.io/aloha-project/>
 
 
 #### This project was done using HTML, CSS, and Java Script.
