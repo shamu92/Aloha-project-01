@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,154 +8,156 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" 
-    integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
 </head>
 
 <body class="container">
+
+    <!--Skip Link commented out because it is not needed for such asmall site-->
+    <!--<a class="screen-reader-text" href="#about">Skip to content</a>-->
     <header>
-        <div class= "logo">
+        <div class="logo">
             <img class="header logo" src="images/aloha-logo.svg" alt="aloha-logo">
         </div>
-        <div class="cart-img simpleCart_Quantity">
-        <img class="header cart-img" src="images/cart-icon.svg" alt="cart-logo">
-        <span class="simpleCart_Quantity"></span>
-        <a href="cart.html"></a>
+        <div class="cart-img">
+            <img class="header cart-img" src="images/cart-icon.svg" alt="cart-logo">
+            <p class="simpleCart_quantity"></p>
+            <!--<a href="cart.html"></a>-->
         </div>
         <nav class="nav-bar">
-          <ul>
-              <li><a href="#about">about</a></li>
-              <li><a href="#shop">shop</a></li>
-              <li><a href="#featured">featured</a></li>
-              <li><a href="#updates">updates</a></li>
-          </ul>
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#shop">shop</a></li>
+                <li><a href="#featured">featured</a></li>
+                <li><a href="#updates">updates</a></li>
+            </ul>
         </nav>
     </header>
-<!--- nav bar -->
+    <!--- nav bar -->
 
 
-<!--Banner section below-->
+    <!--Banner section below-->
+<div class= 'content-section'>
     <section class="banner">
         <div class="banner-text">
             <h4>new collection</h4>
             <h1>Spring/Summer 2016</h1>
-        </div>    
-<!--background image through css with linear gradient-->
+        </div>
+        <!--background image through css with linear gradient-->
     </section>
 
     <section class="about-styles" id="about">
-        <h2 class="italic">Hand-Crafted</h2><h2 class="bold">Styles</h2>
-        <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. 
-            Browse our current selection of products or sign-up for updates below.</p>
+        <h2 class="italic">Hand-Crafted</h2>
+        <h2 class="bold">Styles</h2>
+        <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
     </section>
 
     <section class="categories" id="shop">
-            <a class ="mens text-category" href="#">men's</a>
-            <a class="trends text-category" href="#">trends</a>
-            <a class="glasses text-category" href="#">glasses</a>
-            <a class="sale text-category" href="#">sale</a>
-            <a class="bags text-category" href="#">bags</a>
-            <a class="womens text-category" href="#">women's</a>
+        <a class="mens text-category" href="#">men's</a>
+        <a class="trends text-category" href="#">trends</a>
+        <a class="glasses text-category" href="#">glasses</a>
+        <a class="sale text-category" href="#">sale</a>
+        <a class="bags text-category" href="#">bags</a>
+        <a class="womens text-category" href="#">women's</a>
     </section>
 
-<!--products section with images and descriptions below-->
-  
-    <section class="products" id="featured">   
-        <h2 class ="italic">Most-Loved</h2><h2 class="bold">Products</h2>
+    <!--products section with images and descriptions below-->
+
+    <section class="products" id="featured">
+        <h2 class="italic">Most-Loved</h2>
+        <h2 class="bold">Products</h2>
         <div class="carousel" data-flickity>
             <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/stretch-knit-dress.jpg" alt="Image of stretch knit dress">
                 <h5>dresses</h5>
                 <h3>Stretch Knit Dress</h3>
                 <h5 class="price">$169.00</h5>
-                <a class="item_add" href="javascript:;"> Add to Cart </a>
+                <a class="addCart" href="javascript:;"> Add to Cart </a>
             </div>
             <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/cotton-blue-shirt.jpg" alt="Image of cotton blue shirt">
                 <h5>shirts</h5>
                 <h3>Cotton Blue Shirt</h3>
                 <h5 class="price">$89.00</h5>
-                <a class="item_add" href="javascript:;"> Add to Cart </a>
+                <a class="addCart" href="javascript:;"> Add to Cart </a>
             </div>
             <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/checked-stretch-dress.jpg" alt="Image of checked stretch dress">
                 <h5>dresses</h5>
                 <h3>Checked Stretch Dress</h3>
                 <h5 class="price">$129.00</h5>
-                <a class="item_add" href="javascript:;"> Add to Cart </a>
+                <a class="addCart" href="javascript:;"> Add to Cart </a>
             </div>
             <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/blue-hipster-backpack.jpg" alt="Image of blue hipster backpack">
                 <h5>bags</h5>
                 <h3>Blue Hipster Backpack</h3>
                 <h5 class="price">$69.00</h5>
-                <a class="item_add" href="javascript:;"> Add to Cart </a>
+                <a class="addCart" href="javascript:;"> Add to Cart </a>
             </div>
             <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/demin-overall-shorts.jpg" alt="Image of denim overall shorts">
                 <h5>denim</h5>
                 <h3>Denim Overall Shorts</h3>
                 <h5 class="price">$89.00</h5>
-                <a class="item_add" href="javascript:;"> Add to Cart </a>
+                <a class="addCart" href="javascript:;"> Add to Cart </a>
             </div>
             <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/pink-dotted-dress.jpg" alt="Image of pink dotted dress">
                 <h5>dresses</h5>
                 <h3>Pink Dotted Dress</h3>
                 <h5 class="price">$99.00</h5>
-                <a class="item_add" href="javascript:;"> Add to Cart </a>
+                <a class="addCart" href="javascript:;"> Add to Cart </a>
             </div>
             <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/blue-silk-dress.jpg" alt="Image of blue silk dress">
                 <h5>dresses</h5>
                 <h3>Blue Silk Dress</h3>
                 <h5 class="price">$119.00</h5>
-                <a class="item_add" href="javascript:;"> Add to Cart </a>
+                <a class="addCart" href="javascript:;"> Add to Cart </a>
             </div>
             <div class="carousel-cell simpleCart_shelfItem">
                 <img src="images/cotton-yellow-tshirt.jpg" alt="Image of cotton yellow tshirt">
                 <h5>shirts</h5>
                 <h3>Cotton Yellow Tshirt</h3>
                 <h5 class="price">$39.00</h5>
-                <a class="item_add" href="javascript:;"> Add to Cart </a>
+                <a class="addCart" href="javascript:;"> Add to Cart </a>
             </div>
-        </div>    
+        </div>
     </section>
 
-<!--Email sign-up section with text and form below-->
+    <!--Email sign-up section with text and form below-->
     <section class="email-sign-up" id="updates">
-       <div class="sign-up">  
-         <h2 class="italic">Sign-up for </h2><h2 class="bold">Updates</h2> 
-<!--Don't forget to edit shadow on the text above.-->
-         <p class="sign-up-info">
-            Stay updated on our latest product releases, be first to find
-            out about upcoming sales, and get free style tips from our
-            blog. Unsubscribe at any time.
-         </p>
-       </div>
-         <form class="form-sign-up" action="#">
+        <div class="sign-up">
+            <h2 class="italic">Sign-up for </h2>
+            <h2 class="bold">Updates</h2>
+            <!--Don't forget to edit shadow on the text above.-->
+            <p class="sign-up-info">
+                Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.
+            </p>
+        </div>
+        <form class="form-sign-up" action="#">
             <input type="email" name="your-email" placeholder="Your Email" id="your-email">
             <input type="submit" name="subscribe" value="Subscribe" id="submit">
-         </form>
-<!--background image through css with linear gradient-->
+        </form>
+        <!--background image through css with linear gradient-->
     </section>
-<!--footer section has the mailto: feature. also has social links from fontawesome-->
+</div>  
+    <!--footer section has the mailto: feature. also has social links from fontawesome-->
     <footer>
-      <div class="contact-info">  
-        <h6 class="powered-by">
-            &copy; 2016 Aloha Apparel Co.<br>
-            Powered by HTML and CSS.
-        </h6>
-        <h6 class="number">    
-            604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a><br>
-        </h6>
-        <h6 class="address">   
-            1490 W Broadway<br>
-            Vancouver, BC, Canada
-        </h6>
-      </div>  
-<!--This list below needs to be horizontal for the mobile version but vertical with labels for the web version-->
+        <div class="contact-info">
+            <h6 class="powered-by">
+                &copy; 2016 Aloha Apparel Co.<br> Powered by HTML and CSS.
+            </h6>
+            <h6 class="number">
+                604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a><br>
+            </h6>
+            <h6 class="address">
+                1490 W Broadway<br> Vancouver, BC, Canada
+            </h6>
+        </div>
+        <!--This list below needs to be horizontal for the mobile version but vertical with labels for the web version-->
         <ul class="social">
             <li> <a href=#><i class="fa fa-facebook fa-fw"></i><span> Facebook</span></a></li>
             <li> <a href=#><i class="fa fa-twitter fa-fw"></i><span> Twitter</span></a></li>
@@ -163,8 +166,10 @@
             <li> <a href=#><i class="fa fa-google-plus fa-fw"></i><span> Google+</span></a></li>
         </ul>
     </footer>
- <script src="js/jquery-3.1.1.js"></script>
- <script src="js/main.js"></script>
- <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <script defer src="js/jquery-3.1.1.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <!--<script defer src="js/tota11y.min.js"></script>-->
 </body>
+
 </html>
