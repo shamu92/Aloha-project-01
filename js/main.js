@@ -1,14 +1,5 @@
 $(document).ready(function() {
 
-    // Flickty carousel
-
-    // $('.carousel').flickity({
-    //     cellAlign: 'left',
-    //     contain: true,
-    //     autoPlay: true,
-    //     prevNextButtons: false // the arrrows still show up for some reason
-    // });
-
     // smooth scrolling
     $('a').click(function() {
         $('html, body').animate({
