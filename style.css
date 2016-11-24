@@ -154,11 +154,10 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0% 5%;
-    position: fixed;
     width: 100%;
     z-index: 1;
     background: rgba(255, 255, 255, .7);
-    height: 125px;
+    height: 41px;
     justify-content: center;
 }
 
@@ -507,8 +506,9 @@ because something funky was going on when I linked them. */
     /***** Header styling ******/
     header {
         flex-wrap: nowrap;
+        position: fixed;
         padding-top: 1%;
-        height: 75px;
+        height: 65px;
     }
     .logo {
         order: 1;
@@ -639,6 +639,9 @@ because something funky was going on when I linked them. */
     .email-sign-up p {
         width: 50%;
         margin: 0 auto;
+    }
+    .cart-img p {
+        left: 93px;
     }
 }
 
