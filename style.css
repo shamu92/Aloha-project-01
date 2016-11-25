@@ -368,6 +368,7 @@ input[type="email"] {
 }
 
 input[type="submit"] {
+    -webkit-appearance: none;
     color: white;
     cursor: pointer;
     position: absolute;
