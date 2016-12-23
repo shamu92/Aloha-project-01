@@ -17,3 +17,4 @@ A webiste for a fictional clothing company. Created to demonstrate knowledge and
 * Web Fonts
 * Media Queries with a mobile first approach
 
+## Created by: Aleksandr Altshteyn
