@@ -6,7 +6,7 @@
 
 
 ## Summary: 
-A webiste for a fictional clothing company. Created to demonstrate knowledge and further learn the technologies listed below.
+A website for a fictional clothing company. Created to demonstrate knowledge and further learn the technologies listed below.
 
 ## Technologies and Tools Used:
 * HTML5
